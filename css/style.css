@@ -1,0 +1,49 @@
+@import url('https://fonts.cdnfonts.com/css/robust');
+@import url('https://fonts.cdnfonts.com/css/valorant');
+
+#nav-name {
+  font-family: 'valorant', Sans-Serif;
+  color: #eb0606cd;
+}
+
+#nav-name > span {
+  font-family: 'robust', Sans-Serif;
+  color: #ffffffcd;
+}
+
+#Home > .card {
+  margin-top: 80px;
+  padding: 60px;
+  white-space: pre-wrap;
+  font-size: 15px;
+}
+.card > input {
+  outline: none;
+  color: #ffffffcd;
+  height: 40px;
+  width: 200px;
+  margin: auto;
+  margin-top: 100px;
+}
+.card > button {
+  height: 40px;
+  width: 200px;
+  margin: auto;
+}
+
+.imgUrl {
+  margin-top: -50px;
+}
+.imgUrl > img {
+  border: solid 2px red;
+  position: absolute;
+  left: 50%;
+  top: 16%;
+  transform: translate(-50%, -50%);
+}
+.imgUrl > h1 {
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  transform: translate(-50%, -50%);
+  }
