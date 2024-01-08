@@ -1,6 +1,6 @@
 function cari() {
   const inputText = document.querySelector("input").value;
-  const ApiUrl = `https://api.akuari.my.id/ai/gpt?chat=${inputText}`;
+  const ApiUrl = `https://rest-api.akuari.my.id/ai/gpt-v3?chat=${inputText}`;
   const resultP = document.querySelector("p");
   fetch(ApiUrl)
   .then(res => {
